@@ -10,7 +10,6 @@ from api import api
 from api.config import config
 from api.models import db
 from api import api
-
 def create_app():
     config_name = os.environ.get("CONFIG", "local")
     app = Flask(__name__)
